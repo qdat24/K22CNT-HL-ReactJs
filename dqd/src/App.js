@@ -3,21 +3,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Thông tin sinh viên</h1>
+      <hr />
+      <div className="alert alert-danger">
+        <p>Mã sinh viên: 2210900139</p>
+        <p>Họ và tên: Đinh Quốc Đạt</p>
+        <p>Email: quocdat30075@gmail.com</p>
+        <p>Phone: 0357100129</p>
+      </div>
     </div>
   );
 }
